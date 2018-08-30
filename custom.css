@@ -1,0 +1,50 @@
+body #site-content #main #panel-login:before, body #site-content #main #panel-esquecisenha:before {
+  -ms-filter: invert(1);
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+body {
+  background: linear-gradient(45deg, #c7c7c7, white, #b5b5b5) !important;
+}
+
+body #site-content #main #panel-login, body #site-content #main #panel-esquecisenha {
+  background-color: #ffffff;
+  box-shadow: -1px 4px 9px 0px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+body #site-content #main #panel-login:before, body #site-content #main #panel-esquecisenha:before {
+  background-image: url(../images/logo_w_lvmh3.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 1em;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 97px;
+  content: "";
+}
+
+* {
+  color: #000 !important;
+}
+
+body #tblHeader {
+  background: green !important;
+}
+body img[src="jj/images/logo.jpg"] {
+  display: none !important;
+}
+body #site-content #main #panel-esquecisenha form .form-group input#password ::-webkit-input-placeholder,
+body #site-content #main #panel-esquecisenha form .form-group input#password ::-moz-placeholder,
+body #site-content #main #panel-esquecisenha form .form-group input#password :-ms-input-placeholder,
+body #site-content #main #panel-esquecisenha form .form-group input#password :-moz-placeholder {
+  /* Firefox 18- */
+  color: pink;
+}
+
+/*# sourceMappingURL=custom.css.map */
